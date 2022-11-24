@@ -1,5 +1,5 @@
 const html = document.documentElement;
-const canvas = document.getElementById("hero-lightpass");
+const canvas = document.getElementById("image-sequence");
 const context = canvas.getContext("2d");
 
 const frameCount = 4163;

@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  position: relative;
   height: 1600vh;
   background: #b29881;
 }
@@ -63,3 +64,15 @@ canvas {
   width: 80px;
   cursor: pointer;
 }
+
+.activate-fade-out {
+  position: absolute;
+  display: block;
+  width: 2em;
+  height: 2em;
+  margin: 0 auto;
+  background-color: #b29881;
+  opacity: 0;
+  bottom: 0;
+}
+
