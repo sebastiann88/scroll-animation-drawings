@@ -48,9 +48,9 @@ canvas {
 .play-button img {
   position: absolute;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   right: 2em;
-  bottom: 0;
+  bottom: -3em;
 }
 
 .play-button p {
