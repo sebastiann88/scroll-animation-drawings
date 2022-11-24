@@ -25,15 +25,35 @@ canvas {
   position: relative;*/
 }
 
-.right-col {
+.play-button-container {
   position: fixed;
-  display: flex;
-  align-items: center;
-  bottom: 18em;
-  right: 6.5em;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+  max-height: 720px;
+  z-index: 100;
 }
 
-.right-col p {
+.play-button {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+  max-height: 720px;
+}
+
+.play-button img {
+  position: absolute;
+  display: flex;
+  align-items: baseline;
+  right: 2em;
+  bottom: 0;
+}
+
+.play-button p {
   font-size: 18px;
   color: #f5f5f5;
   font-weight: 400;
