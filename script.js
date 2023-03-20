@@ -2,9 +2,9 @@ const html = document.documentElement;
 const canvas = document.getElementById("image-sequence");
 const context = canvas.getContext("2d");
 
-const frameCount = 4163;
+const frameCount = 4500;
 const currentFrame = index => (
-  `./frames/` + '0' + `${index.toString().padStart(4, '0')}.jpg`
+  `./frames/` + '0' + `${index.toString().padStart(4, '0')}.webp`
 )
 
 const preloadImages = () => {
